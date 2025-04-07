@@ -1,0 +1,711 @@
+[19:12:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:12:32] [ServerMain/INFO]: Loaded 1370 recipes
+[19:12:32] [ServerMain/INFO]: Loaded 1481 advancements
+[19:12:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[19:12:32] [Server thread/INFO]: Loading properties
+[19:12:32] [Server thread/INFO]: Default game type: SURVIVAL
+[19:12:32] [Server thread/INFO]: Generating keypair
+[19:12:32] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at apu$1.run(SourceFile:102) [server-1.21.4.jar:?]
+[19:12:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:12:33] [Server thread/INFO]: Using default channel type
+[19:12:33] [Server thread/INFO]: Preparing level "world"
+[19:12:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:12:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:12:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:12:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:12:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:12:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:12:35] [Server thread/ERROR]: Chunk file at [-11, 34] is in the wrong location; relocating. (Expected [-11, 34], got [-27, 37])
+[19:12:35] [Server thread/ERROR]: Failed to load chunk -11,34
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at ara.d(SourceFile:277) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.bv(SourceFile:877) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.B(SourceFile:865) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:829) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.x_(SourceFile:836) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:522) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.v_(SourceFile:359) ~[server-1.21.4.jar:?]
+	at apu.e(SourceFile:184) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:678) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-27, 37] does not match requested [-11, 34]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 21 more
+[19:12:35] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-29, 36] ] for chunk [-11, 34].
+[19:12:35] [Server thread/ERROR]: Chunk file at [-5, 32] is in the wrong location; relocating. (Expected [-5, 32], got [-26, 37])
+[19:12:35] [IO-Worker-2/INFO]: Saved details to debug\chunk-world-2025-04-06_19.12.35-server.txt
+[19:12:35] [Server thread/ERROR]: Failed to load chunk -5,32
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at ara.d(SourceFile:277) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.bv(SourceFile:877) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.B(SourceFile:865) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:829) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.x_(SourceFile:836) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:522) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.v_(SourceFile:359) ~[server-1.21.4.jar:?]
+	at apu.e(SourceFile:184) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:678) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-26, 37] does not match requested [-5, 32]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 21 more
+[19:12:35] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-29, 36] ] for chunk [-5, 32].
+[19:12:35] [IO-Worker-2/INFO]: Saved details to debug\chunk-world-2025-04-06_19.12.35-server.txt
+[19:12:36] [Server thread/INFO]: Time elapsed: 2381 ms
+[19:12:36] [Server thread/INFO]: Done (2.781s)! For help, type "help"
+[19:13:23] [User Authenticator #1/INFO]: UUID of player Diascamara38 is f0a7e92f-8b50-4fcd-9f19-2e9dc3b8b54f
+[19:13:25] [Server thread/INFO]: Diascamara38[/127.237.171.131:62934] logged in with entity id 84 at (-218.65885929604633, 81.5, -811.5872004114667)
+[19:13:25] [Server thread/INFO]: Diascamara38 joined the game
+[19:13:34] [Server thread/INFO]: Diascamara38 lost connection: Disconnected
+[19:13:34] [Server thread/INFO]: Diascamara38 left the game
+[19:14:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:31:25] [User Authenticator #2/INFO]: UUID of player Diascamara38 is f0a7e92f-8b50-4fcd-9f19-2e9dc3b8b54f
+[19:31:27] [Server thread/INFO]: Diascamara38[/127.237.171.131:63462] logged in with entity id 232 at (-219.43211579031666, 81.5, -809.8254519787658)
+[19:31:27] [Server thread/INFO]: Diascamara38 joined the game
+[19:32:29] [Server thread/INFO]: Diascamara38 lost connection: Disconnected
+[19:32:29] [Server thread/INFO]: Diascamara38 left the game
+[19:33:29] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:35:24] [User Authenticator #3/INFO]: UUID of player Diascamara38 is f0a7e92f-8b50-4fcd-9f19-2e9dc3b8b54f
+[19:35:26] [Server thread/INFO]: Diascamara38[/127.237.171.131:63512] logged in with entity id 489 at (-215.32936285364963, 77.0, -816.8891755567868)
+[19:35:26] [Server thread/INFO]: Diascamara38 joined the game
+[19:36:24] [Server thread/INFO]: Diascamara38 lost connection: Disconnected
+[19:36:24] [Server thread/INFO]: Diascamara38 left the game
+[19:37:24] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:55:33] [User Authenticator #4/INFO]: UUID of player Diascamara38 is f0a7e92f-8b50-4fcd-9f19-2e9dc3b8b54f
+[20:55:35] [Server thread/INFO]: Diascamara38[/127.237.171.131:64379] logged in with entity id 763 at (-206.02673162892927, 82.0, -798.4918749242308)
+[20:55:35] [Server thread/INFO]: Diascamara38 joined the game
+[20:56:01] [User Authenticator #5/INFO]: UUID of player tentkit is ead52b1a-764c-47f2-bae6-ba96f95db985
+[20:56:03] [Server thread/INFO]: tentkit[/127.38.38.155:64391] logged in with entity id 971 at (1310.237500011921, 72.0, 522.3000000119209)
+[20:56:03] [Server thread/INFO]: tentkit joined the game
+[20:56:27] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=0, y=0, z=0} ji{x=-220, y=81, z=-802}
+[21:00:08] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-220, y=80, z=-802} ji{x=-222, y=81, z=-800}
+[21:05:34] [Server thread/INFO]: tentkit was slain by Spider
+[21:05:50] [Server thread/INFO]: [Diascamara38: Gamerule keepInventory is now set to: true]
+[21:06:01] [Server thread/INFO]: Diascamara38 was slain by Iron Golem
+[21:06:31] [Server thread/INFO]: [Diascamara38: Gamerule mobGriefing is now set to: false]
+[21:06:32] [Server thread/INFO]: tentkit was slain by Spider
+[21:17:11] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-220, y=81, z=-818} ji{x=-229, y=81, z=-805}
+[21:19:37] [Server thread/ERROR]: Chunk file at [0, 4] is in the wrong location; relocating. (Expected [0, 4], got [25, 22])
+[21:19:37] [IO-Worker-57/ERROR]: Chunk [0, 5] stream is truncated: expected 5503 but read 4091
+[21:19:37] [IO-Worker-57/ERROR]: Declared size -2129786387 of chunk [0, 7] is negative
+[21:19:37] [IO-Worker-59/WARN]: Chunk has both internal and external streams
+[21:19:37] [IO-Worker-59/ERROR]: External chunk path .\world\region\c.0.8.mcc is not file
+[21:19:37] [IO-Worker-57/ERROR]: Chunk [1, 4] stream is truncated: expected 711902504 but read 4091
+[21:19:37] [IO-Worker-59/WARN]: Chunk has both internal and external streams
+[21:19:37] [IO-Worker-59/ERROR]: External chunk path .\world\region\c.1.5.mcc is not file
+[21:19:37] [IO-Worker-57/ERROR]: Chunk [1, 6] stream is truncated: expected 4930 but read 4091
+[21:19:37] [IO-Worker-59/ERROR]: Chunk [1, 7] stream is truncated: expected 4245 but read 4091
+[21:19:37] [IO-Worker-57/WARN]: Chunk has both internal and external streams
+[21:19:37] [IO-Worker-57/ERROR]: External chunk path .\world\region\c.1.8.mcc is not file
+[21:19:37] [IO-Worker-59/WARN]: Chunk has both internal and external streams
+[21:19:37] [IO-Worker-59/ERROR]: External chunk path .\world\region\c.2.4.mcc is not file
+[21:19:38] [IO-Worker-57/ERROR]: Chunk [2, 5] stream is truncated: expected 4141 but read 4091
+[21:19:38] [IO-Worker-59/ERROR]: Chunk [2, 6] stream is truncated: expected 4138 but read 4091
+[21:19:38] [IO-Worker-57/ERROR]: Declared size -1977318564 of chunk [2, 7] is negative
+[21:19:38] [IO-Worker-57/ERROR]: Chunk [3, 4] stream is truncated: expected 5819 but read 4091
+[21:19:38] [IO-Worker-59/WARN]: Chunk has both internal and external streams
+[21:19:38] [IO-Worker-59/ERROR]: External chunk path .\world\region\c.3.5.mcc is not file
+[21:19:38] [IO-Worker-57/ERROR]: Declared size -210648915 of chunk [3, 6] is negative
+[21:19:38] [IO-Worker-58/ERROR]: Chunk [4, 4] stream is truncated: expected 6743 but read 4091
+[21:19:38] [IO-Worker-59/WARN]: Chunk has both internal and external streams
+[21:19:38] [IO-Worker-59/ERROR]: External chunk path .\world\region\c.4.5.mcc is not file
+[21:19:38] [IO-Worker-58/WARN]: Chunk has both internal and external streams
+[21:19:38] [IO-Worker-58/ERROR]: External chunk path .\world\region\c.4.6.mcc is not file
+[21:19:38] [IO-Worker-59/WARN]: Chunk has both internal and external streams
+[21:19:38] [IO-Worker-59/ERROR]: External chunk path .\world\region\c.4.7.mcc is not file
+[21:19:38] [IO-Worker-58/ERROR]: Chunk [4, 8] stream is truncated: expected 4460 but read 4091
+[21:19:38] [IO-Worker-59/ERROR]: Chunk [5, 4] stream is truncated: expected 5304 but read 4091
+[21:19:38] [IO-Worker-58/WARN]: Chunk has both internal and external streams
+[21:19:38] [IO-Worker-58/ERROR]: External chunk path .\world\region\c.5.5.mcc is not file
+[21:19:38] [IO-Worker-58/ERROR]: Declared size -876773525 of chunk [5, 7] is negative
+[21:19:38] [IO-Worker-59/ERROR]: Chunk [5, 8] stream is truncated: expected 5808 but read 4091
+[21:19:38] [IO-Worker-58/ERROR]: Declared size -1179780399 of chunk [6, 4] is negative
+[21:19:38] [IO-Worker-59/ERROR]: Chunk [6, 5] stream is truncated: expected 6683 but read 4091
+[21:19:38] [IO-Worker-58/ERROR]: Chunk [6, 6] stream is truncated: expected 5527 but read 4091
+[21:19:38] [IO-Worker-59/ERROR]: Chunk [6, 7] stream is truncated: expected 6684 but read 4091
+[21:19:38] [IO-Worker-58/ERROR]: Chunk [6, 8] stream is truncated: expected 6372 but read 4091
+[21:19:38] [IO-Worker-59/WARN]: Chunk has both internal and external streams
+[21:19:38] [IO-Worker-59/ERROR]: External chunk path .\world\region\c.7.4.mcc is not file
+[21:19:38] [IO-Worker-59/ERROR]: Declared size -696858113 of chunk [7, 6] is negative
+[21:19:38] [IO-Worker-59/ERROR]: Chunk [7, 8] stream is truncated: expected 4857 but read 4091
+[21:19:38] [IO-Worker-58/ERROR]: Declared size -888021889 of chunk [8, 4] is negative
+[21:19:38] [IO-Worker-59/ERROR]: Chunk [8, 5] stream is truncated: expected 2090825329 but read 4091
+[21:19:38] [IO-Worker-58/ERROR]: Chunk [8, 6] stream is truncated: expected 2088752124 but read 4091
+[21:19:38] [Server thread/ERROR]: Failed to load chunk 0,4
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [25, 22] does not match requested [0, 4]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:38] [Server thread/ERROR]: Chunk file at [0, 6] is in the wrong location; relocating. (Expected [0, 6], got [29, 19])
+[21:19:38] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.38-server.txt
+[21:19:38] [Server thread/ERROR]: Failed to load chunk 0,6
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [29, 19] does not match requested [0, 6]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:38] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.38-server.txt
+[21:19:38] [Server thread/ERROR]: Chunk file at [2, 8] is in the wrong location; relocating. (Expected [2, 8], got [19, 3])
+[21:19:38] [Server thread/ERROR]: Failed to load chunk 2,8
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [19, 3] does not match requested [2, 8]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:38] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [19, -1] ] for chunk [2, 8].
+[21:19:38] [Server thread/ERROR]: Chunk file at [3, 7] is in the wrong location; relocating. (Expected [3, 7], got [12, 13])
+[21:19:38] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.38-server.txt
+[21:19:38] [Server thread/ERROR]: Failed to load chunk 3,7
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [12, 13] does not match requested [3, 7]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:38] [Server thread/ERROR]: Chunk file at [3, 8] is in the wrong location; relocating. (Expected [3, 8], got [7, 1])
+[21:19:38] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.38-server.txt
+[21:19:39] [Server thread/ERROR]: Failed to load chunk 3,8
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [7, 1] does not match requested [3, 8]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:39] [Server thread/ERROR]: Chunk file at [5, 6] is in the wrong location; relocating. (Expected [5, 6], got [18, 7])
+[21:19:39] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.39-server.txt
+[21:19:39] [Server thread/ERROR]: Failed to load chunk 5,6
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [18, 7] does not match requested [5, 6]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:39] [Server thread/ERROR]: Chunk file at [7, 5] is in the wrong location; relocating. (Expected [7, 5], got [17, 20])
+[21:19:39] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.39-server.txt
+[21:19:39] [Server thread/ERROR]: Failed to load chunk 7,5
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [17, 20] does not match requested [7, 5]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:39] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [20, 24] ] for chunk [7, 5].
+[21:19:39] [Server thread/ERROR]: Chunk file at [7, 7] is in the wrong location; relocating. (Expected [7, 7], got [10, 6])
+[21:19:39] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.39-server.txt
+[21:19:39] [Server thread/ERROR]: Failed to load chunk 7,7
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [10, 6] does not match requested [7, 7]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:39] [Server thread/ERROR]: Chunk file at [8, 7] is in the wrong location; relocating. (Expected [8, 7], got [6, 6])
+[21:19:39] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.39-server.txt
+[21:19:39] [Server thread/ERROR]: Failed to load chunk 8,7
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [6, 6] does not match requested [8, 7]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:39] [Server thread/ERROR]: Chunk file at [8, 8] is in the wrong location; relocating. (Expected [8, 8], got [21, 1])
+[21:19:39] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.39-server.txt
+[21:19:39] [Server thread/ERROR]: Failed to load chunk 8,8
+z: Chunk found in invalid location
+	at eab.a(SourceFile:23) ~[server-1.21.4.jar:?]
+	at eab.a(SourceFile:30) ~[server-1.21.4.jar:?]
+	at eao.a(SourceFile:249) ~[server-1.21.4.jar:?]
+	at aqi.a(SourceFile:591) ~[server-1.21.4.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at bra.d(SourceFile:164) ~[server-1.21.4.jar:?]
+	at ara$b.d(SourceFile:602) ~[server-1.21.4.jar:?]
+	at bra.B(SourceFile:138) ~[server-1.21.4.jar:?]
+	at ara$b.B(SourceFile:611) ~[server-1.21.4.jar:?]
+	at bra.b(SourceFile:147) ~[server-1.21.4.jar:?]
+	at ara$b.b(SourceFile:575) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dgj.a(SourceFile:209) ~[server-1.21.4.jar:?]
+	at dgm.a(SourceFile:151) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:51) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:126) ~[server-1.21.4.jar:?]
+	at dhf.a(SourceFile:116) ~[server-1.21.4.jar:?]
+	at chc.a(SourceFile:374) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:96) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:74) ~[server-1.21.4.jar:?]
+	at cof.a(SourceFile:58) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:445) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:424) ~[server-1.21.4.jar:?]
+	at ara.t(SourceFile:356) ~[server-1.21.4.jar:?]
+	at ara.a(SourceFile:326) ~[server-1.21.4.jar:?]
+	at ard.a(SourceFile:355) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1069) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:953) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:713) ~[server-1.21.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:292) ~[server-1.21.4.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [21, 1] does not match requested [8, 8]
+	at eab.a(SourceFile:20) ~[server-1.21.4.jar:?]
+	... 31 more
+[21:19:39] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [19, -1] ] for chunk [8, 8].
+[21:19:39] [IO-Worker-59/INFO]: Saved details to debug\chunk-world-2025-04-06_21.19.39-server.txt
+[21:19:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2523ms or 50 ticks behind
+[21:23:00] [Server thread/INFO]: [Diascamara38: Gamerule mobGriefing is now set to: true]
+[21:31:32] [Server thread/INFO]: tentkit lost connection: Disconnected
+[21:31:32] [Server thread/INFO]: tentkit left the game
+[21:31:40] [User Authenticator #6/INFO]: UUID of player tentkit is ead52b1a-764c-47f2-bae6-ba96f95db985
+[21:31:40] [Server thread/INFO]: tentkit[/127.38.38.155:64612] logged in with entity id 11363 at (1248.0977849291455, 69.0, 1082.8514696272252)
+[21:31:40] [Server thread/INFO]: tentkit joined the game
+[21:42:58] [Server thread/INFO]: tentkit lost connection: Disconnected
+[21:42:58] [Server thread/INFO]: tentkit left the game
+[21:43:08] [User Authenticator #7/INFO]: UUID of player tentkit is ead52b1a-764c-47f2-bae6-ba96f95db985
+[21:43:08] [Server thread/INFO]: tentkit[/127.38.38.155:64664] logged in with entity id 18318 at (3182.918267647986, 67.0, 2515.705828833678)
+[21:43:08] [Server thread/INFO]: tentkit joined the game
+[21:48:53] [Server thread/INFO]: <Diascamara38> ./locate biome minecraft:taiga
+[21:48:58] [Server thread/INFO]: tentkit fell from a high place
+[21:49:24] [Server thread/INFO]: Made tentkit a server operator
+[21:49:36] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:49:36] [Server thread/INFO]: balls<--[HERE]
+[21:50:00] [Server thread/INFO]: Locating element #minecraft:is_taiga (minecraft:snowy_taiga) took 1406 ms
+[21:50:14] [Server thread/INFO]: [tentkit: Teleported tentkit to -449.500000, 72.000000, 2284.500000]
+[21:54:54] [Server thread/INFO]: tentkit was blown up by Creeper
+[22:01:55] [Server thread/INFO]: [Diascamara38: Teleported Diascamara38 to tentkit]
+[22:05:47] [Server thread/INFO]: [Diascamara38: Teleported Diascamara38 to -219.500000, 81.000000, -809.500000]
+[22:09:03] [Server thread/INFO]: tentkit fell from a high place
+[22:09:45] [Server thread/INFO]: tentkit was shot by Skeleton
+[22:26:06] [Server thread/INFO]: tentkit fell from a high place
+[22:31:59] [Server thread/INFO]: [Diascamara38: Teleported Diascamara38 to tentkit]
+[22:33:42] [Server thread/INFO]: Diascamara38 lost connection: Disconnected
+[22:33:42] [Server thread/INFO]: Diascamara38 left the game
+[22:34:38] [User Authenticator #8/INFO]: UUID of player Diascamara38 is f0a7e92f-8b50-4fcd-9f19-2e9dc3b8b54f
+[22:34:40] [Server thread/INFO]: Diascamara38[/127.237.171.131:65000] logged in with entity id 34206 at (1291.1909618770255, 76.0, 501.51743485500583)
+[22:34:40] [Server thread/INFO]: Diascamara38 joined the game
+[22:35:03] [Server thread/INFO]: Diascamara38 lost connection: Disconnected
+[22:35:03] [Server thread/INFO]: Diascamara38 left the game
+[22:35:54] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:35:54] [Server thread/INFO]: whisper tentkit pp<--[HERE]
+[22:36:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:36:03] [Server thread/INFO]: whisper tentkit pp<--[HERE]
+[22:36:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:36:24] [Server thread/INFO]: whisper tentkit pp<--[HERE]
+[22:36:27] [Server thread/INFO]: /advancement (grant|revoke)
+[22:36:27] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[22:36:27] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[22:36:27] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[22:36:27] [Server thread/INFO]: /clear [<targets>]
+[22:36:27] [Server thread/INFO]: /clone (<begin>|from)
+[22:36:27] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[22:36:27] [Server thread/INFO]: /data (merge|get|remove|modify)
+[22:36:27] [Server thread/INFO]: /datapack (enable|disable|list)
+[22:36:27] [Server thread/INFO]: /debug (start|stop|function)
+[22:36:27] [Server thread/INFO]: /defaultgamemode <gamemode>
+[22:36:27] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[22:36:27] [Server thread/INFO]: /effect (clear|give)
+[22:36:27] [Server thread/INFO]: /me <action>
+[22:36:27] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[22:36:27] [Server thread/INFO]: /experience (add|set|query)
+[22:36:27] [Server thread/INFO]: /xp -> experience
+[22:36:27] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[22:36:27] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[22:36:27] [Server thread/INFO]: /forceload (add|remove|query)
+[22:36:27] [Server thread/INFO]: /function <name> [<arguments>|with]
+[22:36:27] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[22:36:27] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[22:36:27] [Server thread/INFO]: /give <targets> <item> [<count>]
+[22:36:27] [Server thread/INFO]: /help [<command>]
+[22:36:27] [Server thread/INFO]: /item (replace|modify)
+[22:36:27] [Server thread/INFO]: /kick <targets> [<reason>]
+[22:36:27] [Server thread/INFO]: /kill [<targets>]
+[22:36:27] [Server thread/INFO]: /list [uuids]
+[22:36:27] [Server thread/INFO]: /locate (structure|biome|poi)
+[22:36:27] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[22:36:27] [Server thread/INFO]: /msg <targets> <message>
+[22:36:27] [Server thread/INFO]: /tell -> msg
+[22:36:27] [Server thread/INFO]: /w -> msg
+[22:36:27] [Server thread/INFO]: /particle <name> [<pos>]
+[22:36:27] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[22:36:27] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[22:36:27] [Server thread/INFO]: /random (value|roll|reset)
+[22:36:27] [Server thread/INFO]: /reload
+[22:36:27] [Server thread/INFO]: /recipe (give|take)
+[22:36:27] [Server thread/INFO]: /return (<value>|fail|run)
+[22:36:27] [Server thread/INFO]: /ride <target> (mount|dismount)
+[22:36:27] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
+[22:36:27] [Server thread/INFO]: /say <message>
+[22:36:27] [Server thread/INFO]: /schedule (function|clear)
+[22:36:27] [Server thread/INFO]: /scoreboard (objectives|players)
+[22:36:27] [Server thread/INFO]: /seed
+[22:36:27] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[22:36:27] [Server thread/INFO]: /spawnpoint [<targets>]
+[22:36:27] [Server thread/INFO]: /setworldspawn [<pos>]
+[22:36:27] [Server thread/INFO]: /spectate [<target>]
+[22:36:27] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[22:36:27] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[22:36:27] [Server thread/INFO]: /summon <entity> [<pos>]
+[22:36:27] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[22:36:27] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[22:36:27] [Server thread/INFO]: /teammsg <message>
+[22:36:27] [Server thread/INFO]: /tm -> teammsg
+[22:36:27] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[22:36:27] [Server thread/INFO]: /tp -> teleport
+[22:36:27] [Server thread/INFO]: /tellraw <targets> <message>
+[22:36:27] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[22:36:27] [Server thread/INFO]: /time (set|add|query)
+[22:36:27] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[22:36:27] [Server thread/INFO]: /trigger <objective> [add|set]
+[22:36:27] [Server thread/INFO]: /weather (clear|rain|thunder)
+[22:36:27] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[22:36:27] [Server thread/INFO]: /jfr (start|stop)
+[22:36:27] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[22:36:27] [Server thread/INFO]: /banlist [ips|players]
+[22:36:27] [Server thread/INFO]: /ban <targets> [<reason>]
+[22:36:27] [Server thread/INFO]: /deop <targets>
+[22:36:27] [Server thread/INFO]: /op <targets>
+[22:36:27] [Server thread/INFO]: /pardon <targets>
+[22:36:27] [Server thread/INFO]: /pardon-ip <target>
+[22:36:27] [Server thread/INFO]: /perf (start|stop)
+[22:36:27] [Server thread/INFO]: /save-all [flush]
+[22:36:27] [Server thread/INFO]: /save-off
+[22:36:27] [Server thread/INFO]: /save-on
+[22:36:27] [Server thread/INFO]: /setidletimeout <minutes>
+[22:36:27] [Server thread/INFO]: /stop
+[22:36:27] [Server thread/INFO]: /transfer <hostname> [<port>]
+[22:36:27] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[22:36:42] [Server thread/INFO]: [Not Secure] [Server] pp
+[22:36:49] [User Authenticator #9/INFO]: UUID of player Diascamara38 is f0a7e92f-8b50-4fcd-9f19-2e9dc3b8b54f
+[22:36:51] [Server thread/INFO]: Diascamara38[/127.237.171.131:65044] logged in with entity id 34487 at (1221.0312754985407, 73.9953528284421, 390.3851139465498)
+[22:36:51] [Server thread/INFO]: Diascamara38 joined the game
+[22:37:43] [Server thread/INFO]: [tentkit: Set own game mode to Spectator Mode]
+[22:39:26] [Server thread/WARN]: Diascamara38 moved too quickly! 16.320719276827504,-1.8719743465686207,6.289519956084405
+[22:39:29] [Server thread/INFO]: [tentkit: Set own game mode to Survival Mode]
+[22:40:21] [Server thread/INFO]: [Diascamara38: Teleported Diascamara38 to -219.500000, 81.000000, -809.500000]
+[22:41:09] [Server thread/INFO]: Diascamara38 lost connection: Disconnected
+[22:41:09] [Server thread/INFO]: Diascamara38 left the game
+[22:42:13] [Server thread/INFO]: [tentkit: Set own game mode to Spectator Mode]
+[22:46:04] [Server thread/INFO]: [tentkit: Set own game mode to Survival Mode]
+[22:49:59] [Server thread/INFO]: tentkit fell from a high place
+[23:07:25] [User Authenticator #10/INFO]: UUID of player Diascamara38 is f0a7e92f-8b50-4fcd-9f19-2e9dc3b8b54f
+[23:07:26] [Server thread/INFO]: Diascamara38[/127.237.171.131:65180] logged in with entity id 40110 at (-221.00533881186055, 82.5, -815.1999999880791)
+[23:07:26] [Server thread/INFO]: Diascamara38 joined the game
+[23:07:33] [Server thread/INFO]: tentkit lost connection: Disconnected
+[23:07:33] [Server thread/INFO]: tentkit left the game
+[23:09:50] [Server thread/INFO]: Diascamara38 lost connection: Disconnected
+[23:09:50] [Server thread/INFO]: Diascamara38 left the game
+[23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
