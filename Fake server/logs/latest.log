@@ -709,3 +709,4 @@ Caused by: java.lang.IllegalStateException: Retrieved chunk position [21, 1] doe
 [23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:10:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
